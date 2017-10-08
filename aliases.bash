@@ -2,6 +2,8 @@
 # Basic system
 # 
 alias s='cd ..'
+alias myip='curl api.ipify.org; echo ""'
+alias jsonFormat='python -mjson.tool'
 
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
